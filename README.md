@@ -44,3 +44,9 @@
 ![BPF](anti02.gif?raw=true)
 > [rkbreaker](https://github.com/linuxthor/rkbreaker) it is supposed to block some rootkit from being loaded and, if loaded, break some functionalities
 > on some `known` rootkits (not KoviD, KoviD is not `known`) but anyway, don't break anything for us
+
+## Stealth mode run
+![stealth](stealth.gif?raw=true)
+> `DEPLOY=1` indicates stealth mode build
+> `cat /proc/kovid` returns the `password` to reveal the rootkit.
+> Note: `/proc/kovid` has, by default, 120 seconds of timeout that once expired will hide the proc interface that cannot be used until `kill -SIGCONT 31337` is used to toggle it back

@@ -63,3 +63,5 @@
 > Of course, that is not ideal and can reveal your access, even if for that brief moment and not revealing any other interaction, specially if it is unencrypted `netcat`.
 > So that's how it is and I suggest first, that `KoviD` is not run in any unauthorized target and is used only in test environments.
 
+## Gift someone else with rootshell backdoor
+![gift](gift.gif?raw=true)

@@ -65,3 +65,8 @@
 
 ## Gift someone else with rootshell backdoor
 ![gift](gift.gif?raw=true)
+
+## Using KoviD alongside with spying tool, in this case the cool [pamspy](https://github.com/citronneur/pamspy.git) by [@citronneur](https://github.com/citronneur/pamspy)
+![pamspy](pamspy.gif?raw=true)
+> So here we have a third-party tool that we hide using Kovid. Pamspy is great to capture authentication passwords that occur in the host it is running.
+> KoviD can work on the other half: outgoing connections via tty backdoor, this way most credentials can be captured.
